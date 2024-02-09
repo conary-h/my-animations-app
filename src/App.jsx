@@ -5,6 +5,7 @@ import './App.css';
 
 import ExpandableCard from './components/ExpandableCard';
 import DragToReveal from './components/DragToReveal';
+import StaggeredList from './components/StaggeredList';
 
 function App() {
   return (
@@ -67,6 +68,16 @@ function App() {
       <div style={{ maxWidth: 500, marginTop: 100, background: 'red' }}>
         <DragToReveal />
       </div>
+
+      <section>
+        <h1>GSAP example</h1>
+        <p>
+          This is a simple example of how to use GSAP to create a simple
+          animation.
+        </p>
+
+        <StaggeredList />
+      </section>
     </div>
   );
 }
